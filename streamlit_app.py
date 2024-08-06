@@ -22,8 +22,8 @@ df = load_data(selected_bab)
 
 # Opsi untuk menampilkan kolom
 show_kata = st.checkbox('Tampilkan Kata', value=True)
-show_kanji = st.checkbox('Tampilkan Kanji', value=False)
 show_arti = st.checkbox('Tampilkan Arti', value=True)
+show_kanji = st.checkbox('Tampilkan Kanji', value=False)
 show_romaji = st.checkbox('Tampilkan Romaji', value=False)
 show_keterangan = st.checkbox('Tampilkan Keterangan', value=False)
 
