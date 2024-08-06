@@ -21,11 +21,12 @@ selected_bab = st.number_input('Pilih Bab', min_value=1, max_value=50, step=1, v
 df = load_data(selected_bab)
 
 # Opsi untuk menampilkan kolom
-show_kata = st.checkbox('Tampilkan Kata', value=True)
-show_arti = st.checkbox('Tampilkan Arti', value=True)
-show_kanji = st.checkbox('Tampilkan Kanji', value=False)
-show_romaji = st.checkbox('Tampilkan Romaji', value=False)
-show_keterangan = st.checkbox('Tampilkan Keterangan', value=False)
+col1, col2, col3, col4, col5 = st.columns(5)
+show_kata = col1.checkbox('Kata', value=True)
+show_arti = col2.checkbox('Arti', value=True)
+show_kanji = col3.checkbox('Kanji', value=False)
+show_romaji = col4.checkbox('Romaji', value=False)
+show_keterangan = col5.checkbox('Keterangan', value=False)
 
 # Tentukan kolom yang akan ditampilkan
 columns_to_show = []
