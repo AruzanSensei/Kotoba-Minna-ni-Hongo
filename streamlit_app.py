@@ -46,4 +46,6 @@ if not df.empty and columns_to_show:
 else:
     st.write("Tidak ada kolom yang dipilih untuk ditampilkan.")
 
-st.write("by aru")
+st.write("- tentang")
+st.write("situs ini saya buat untuk membantu teman-teman yang sedang mempelajari kosakata bahasa jepang bersama saya, semoga bisa membantu ya :)")
+st.write("Aruzan desu -")
