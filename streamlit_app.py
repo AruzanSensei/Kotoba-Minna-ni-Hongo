@@ -20,6 +20,8 @@ selected_bab = st.number_input('Pilih Bab', min_value=1, max_value=50, step=1, v
 
 df = load_data(selected_bab)
 
+st.write("_TAMPILKAN:_")
+
 # Opsi untuk menampilkan kolom
 col1, col2, col3, col4, col5 = st.columns(5)
 show_kata = col1.checkbox('Kata', value=True)
