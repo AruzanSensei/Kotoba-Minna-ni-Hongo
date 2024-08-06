@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-folder_path = 'kotoba'
+folder_path = 'Kotoba'
 
 def load_data(bab):
     file_name = f'bab{bab}.xlsx'
