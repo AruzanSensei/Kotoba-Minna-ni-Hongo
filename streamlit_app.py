@@ -47,5 +47,5 @@ else:
     st.write("Tidak ada kolom yang dipilih untuk ditampilkan.")
 
 st.write("- tentang")
-st.write("_situs ini saya buat untuk membantu teman-teman yang sedang mempelajari kosakata bahasa jepang bersama saya, semoga bisa membantu ya :)_")
+st.write("_situs ini saya buat untuk membantu teman-teman yang sedang mempelajari kosakata bahasa jepang bersama saya, semoga bisa membantu :)_")
 st.write("_Aruzan desu -_")
