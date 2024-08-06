@@ -15,7 +15,7 @@ def load_data(bab):
 st.write("_untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop' di chrome, dan masuk ke setting (titik 3 pada pojok kanan, sebelah gambar kucing) lalu aktifkan 'wide mode' :)_")
 
 
-st.title("Kosakata - Minna no Nihongo")
+st.title("Kotoba - Minna no Nihongo 1")
 selected_bab = st.number_input('Pilih Bab', min_value=1, max_value=50, step=1, value=1)
 
 df = load_data(selected_bab)
