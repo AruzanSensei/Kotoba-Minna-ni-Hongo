@@ -12,7 +12,7 @@ def load_data(bab):
     else:
         st.error(f"Data untuk Bab {bab} tidak ditemukan.")
         return pd.DataFrame()
-st.write("untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop' di chrome, dan masuk ke setting (titik 3 pada pojok kanan, sebelah gambar kucing) lalu aktifkan 'wide mode' :)")
+st.write("_untuk pengalaman yang lebih baik gunakan fitur 'tampilan dekstop' di chrome, dan masuk ke setting (titik 3 pada pojok kanan, sebelah gambar kucing) lalu aktifkan 'wide mode' :)_")
 
 
 st.title("Kosakata - Minna no Nihongo")
